@@ -1,0 +1,119 @@
+.root{
+	-fx-background-image: url("background.jpg");
+	-fx-background-size: 610.0, 500.0;
+}
+
+#centerVBox {
+	-fx-alignment: center;
+	-fx-spacing: 10;
+	-fx-font-family: "Impact";
+	-fx-font-size: 15;
+}
+
+.toggleHBox{
+	-fx-alignment: center;
+	-fx-spacing: 10;
+	-fx-font-family: "Impact";
+	-fx-font-size: 15;
+}
+
+.button{
+	-fx-background-color: white;
+	-fx-min-width: 50;
+	-fx-max-width: 50;
+	-fx-min-height: 50;
+	-fx-max-height: 50;
+	-fx-background-radius: 30px;
+	-fx-effect: innershadow(gaussian, #787878, 10, 0.4, 0, 2);
+}
+
+
+#border-button{
+	-fx-background-color: transparent;
+}
+
+
+#test{
+	-fx-background-color: white;
+}
+#player-label {
+	-fx-font-family: "Impact";
+	-fx-font-size: 15;
+	-fx-underline: true;
+}
+
+.chooseBorder{
+	-fx-alignment: center;
+	-fx-hgap: 5px;
+	-fx-vgap: 5px;
+}
+
+.GameBorder{
+	-fx-background-color: linear-gradient(#0000cd, #191970);
+	-fx-effect: dropshadow(gaussian, #787878, 40, 0.5, 0, 0);
+	-fx-min-width: 400;
+	-fx-max-width: 400;
+	-fx-alignment: center;
+	-fx-hgap: 5px;
+	-fx-vgap: 5px;
+}
+
+#bottomHBox {
+	-fx-alignment: center;
+	-fx-spacing: 200;
+}
+
+#Enter-button{
+	-fx-background-color: yellow;
+	-fx-effect: none;
+}
+#Exit-button{
+	-fx-background-color: transparent;
+	-fx-border-color: transparent;
+}
+
+.red-Button{
+	-fx-background-color: red;
+	-fx-border-color: derive(red, -10%);
+	-fx-border-radius: 30px;
+	-fx-effect: null;
+	-fx-border-width: 1;
+	-fx-font-family: sans-serif;
+	-fx-font-weight: bold;
+	-fx-font-size: 25;
+	-fx-text-fill: white;
+	
+}
+.yellow-Button{
+	-fx-background-color: yellow;
+	-fx-border-color: derive(yellow, -10%);
+	-fx-border-radius: 30px;
+	-fx-effect: null;
+	-fx-border-width: 1;
+	-fx-font-family: sans-serif;
+	-fx-font-weight: bold;
+	-fx-font-size: 25;
+	-fx-text-fill: white;
+}
+
+#red1-Button{
+	-fx-background-color: red;
+	-fx-effect: none;
+}
+
+#yellow1-Button{
+	-fx-background-color: yellow;
+	-fx-effect: none;
+}
+
+.yellow-Button.button .text {
+	-fx-stroke: black;
+}
+
+.red-Button.button .text {
+	-fx-stroke: black;
+}
+
+.winning-Line {
+	-fx-effect: dropshadow(gaussian, white, 40, 0.5, 0, 0);
+}

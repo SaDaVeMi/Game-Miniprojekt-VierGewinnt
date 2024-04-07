@@ -1,0 +1,52 @@
+.root{
+	-fx-background-image: url("background.jpg");
+	-fx-background-position: center;
+	-fx-background-size: 610.0, 500.0;
+}
+
+#title{
+	-fx-font-family: "Impact";
+	-fx-font-size: 30;
+	-fx-underline: true;
+}
+
+#fun-label{
+	-fx-font-family: "Impact";
+	-fx-font-size: 20;
+	-fx-font-spacing: 20;
+	-fx-underline: true;
+}
+
+.label{
+	-fx-font-size: 15;
+	-fx-font-spacing: 10;
+	-fx-label-padding:1;
+}
+
+#ImagePaneStyler{
+	-fx-hgap: 10;
+	-fx-vgap: 10;
+	-fx-alignment: center;
+}
+
+.VBox{
+	-fx-background-image: url("background.jpg");
+	-fx-background-size: 610.0, 500.0;
+	-fx-alignment: top-center;
+	-fx-spacing: 40;
+}
+
+.button {
+	-fx-min-width: 300;
+	-fx-min-height: 50;
+	-fx-background-color: linear-gradient(#7ebcea, #2f3b8f);
+    -fx-background-radius: 60.0px;
+	-fx-text-fill: white;
+	-fx-font-family: sans-serif;
+	-fx-font-size: 25;
+	-fx-font-style: italic;
+	-fx-font-weight: bold;
+}
+.button:hover {
+	-fx-background-color: linear-gradient(derive(#7ebcea, -20%), derive(#2f3b8f, -20%));
+}

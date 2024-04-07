@@ -1,0 +1,82 @@
+.root {
+	-fx-background-image: url("background.jpg");
+	-fx-background-position: center;
+	-fx-background-size: 610.0, 500.0;
+	-fx-min-width: 610.0;
+	-fx-min-height: 500.0;
+	-fx-max-width: 610.0;
+	-fx-max-height: 500.0;
+}
+
+.HBox{
+	-fx-alignment: center;
+	-fx-spacing: 20;
+	-fx-font-family: "Impact";
+	-fx-font-size: 15;
+	}
+
+.top {
+	-fx-padding: 20 0 0 60;
+	-fx-hgap: 180;
+}
+
+#bottom {
+	-fx-alignment: top-center;
+	-fx-padding: 50;
+	-fx-spacing: 40;
+}
+
+.button {
+	-fx-min-width: 300;
+	-fx-min-height: 50;
+	-fx-background-color: linear-gradient(#7ebcea, #2f3b8f);
+    -fx-background-radius: 60.0px;
+	-fx-text-fill: white;
+	-fx-font-family: sans-serif;
+	-fx-font-size: 25;
+	-fx-font-style: italic;
+	-fx-font-weight: bold;
+}
+
+.button:hover {
+	-fx-background-color: linear-gradient(derive(#7ebcea, -20%), derive(#2f3b8f, -20%));
+}
+
+.label {
+	-fx-font-family: "Impact";
+	-fx-font-size: 15;
+	-fx-underline: true;
+}
+
+#P1 {
+	-fx-background-color: #fffacd;
+ 	-fx-border-color: #ffff00;
+ 	-fx-max-width: 87;
+ 	-fx-border-width: 0 0 0 8;
+ 	-fx-padding: 7; 
+ 	-fx-font-family: sans-serif;
+ 	-fx-prompt-text-fill: #000000;
+}
+
+#P1:focused {
+	-fx-background-color: #ffff00;	
+	-fx-prompt-text-fill:  #ffff00;
+}
+
+#P2 {
+	-fx-background-color: #fa8072;
+ 	-fx-border-color: #ff0000;
+ 	-fx-max-width: 87;
+ 	-fx-border-width: 0 0 0 8;
+ 	-fx-padding: 7;
+ 	-fx-font-family: sans-serif;
+ 	-fx-prompt-text-fill:  #000000;
+}
+
+#P2:focused {
+	-fx-background-color: #ff0000;
+	-fx-prompt-text-fill:  #ff0000;
+}
+
+
+
